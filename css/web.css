@@ -1,0 +1,77 @@
+/* Begin Global Rols */
+body {
+
+}
+* {
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box ;
+    -webkit-box-sizing: border-box ; 
+}
+
+.container {
+    width: 1200px;
+    margin: auto; 
+}
+/* End Global Rols */
+
+/* Begin Navbar */
+
+.Navbar {
+    font-size: 20px;
+    height: 0px;
+    color: #fff; 
+    position: relative; 
+    z-index: 2; 
+}
+.Navbar .brand {
+    float: left;
+    width: 40%;
+    text-transform: uppercase;
+}
+.Navbar .links {
+    float: left;
+    width: 60%; 
+    margin-top: 15px;   
+}
+.Navbar .links li {
+    display: inline-block ;
+    padding: 10px 0px ; 
+    margin: 0px 10px ; 
+    border-bottom: 2px solid transparent;
+  
+}
+.Navbar .links li.active,
+.Navbar .links li:hover{
+    color: #1abc9c  ;     
+    border-bottom: 2px solid #1abc9c 
+}
+   
+
+/* End Navbar */
+
+/* Begin Header */
+
+.header {
+    background: url(../image/img-2.jpg);
+    position: relative;
+}
+.header .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    color: #fff; 
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+
+
+}
+/* End Header */
+/* Begin My Fremworks */
+.clearfix {
+    clear: both ;
+}
+/* End My Fremworks */ 
